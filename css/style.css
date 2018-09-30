@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    background: url(../images/backgroundimage.jpg);
+    height: 125vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.header{
+    color: #fff;
+    overflow: hidden;
+    padding: 25px 0px;
+}
+.logo{
+    width: 20%;
+    float: left;
+    padding-top: 10px;
+}
+.logo img{
+
+}
+
+nav{
+    width: 80%;
+    float: left;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+}
+
+/* slidertext */
+
+.slidertext{
+    color: #fff;
+    text-align: right;
+    margin-top: 152px;
+}
+.slidertext h3{
+    font-size: 50px;
+    font-weight: 400;
+    margin: 0;
+    line-height: 41px;
+}
+.slidertext h2{
+    font-size: 60px;
+    margin: 0px;
+}
+.slidertext p{
+    width: 596px;
+    float: right;
+    font-size: 20px;
+    margin: 0px;
+    margin-top: 15px;
+}
+.button{
+    text-align: right;
+}
+.button a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    padding: 10px 33px;
+    display: inline-block;
+    border: 1px solid #F44336;
+    margin-top: 40px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    transition-duration: .5s;
+}
+
+.button a:hover{
+    background: #F44336;
+}
+
+/* about-section */
+
+.about-section{
+    padding: 60px 0px;
+    background-color: #f7f7f7;
+}
+.about-img{width: 50%;float: left;border-bottom: 1px solid red;}
+.about-img img{
+    max-width: 100%;
+    width: 60%;
+    margin: 0 auto;
+    display: block;
+}
+.about-me{
+    width: 50%;
+    float: left;
+    margin-top: 45px;
+}
+.about-me h3{
+    font-size: 30px;
+    margin: 0;
+    font-weight: 500;
+}
+.about-me h1{
+    font-size: 60px;
+    margin: 0;
+}
+.about-me p{
+    font-size: 20px;
+    margin: 0;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+.about-me .btn{
+    padding: 15px 30px;
+    display: inline-block;
+    color: #2c2e35;
+    text-transform: uppercase;
+    font-size: 14px;
+    text-decoration: none;
+    border: 1px solid #2c2e35;
+    border-radius: 5px;
+    transition-duration: .5s;
+}
+
+.about-me .btn:hover{
+    background: #ec4436;
+    color: #fff; 
+}
+
+/* gallery-section */
+
+.gallery-section{
+    padding: 60px 0px;
+}
+
+.gallerytitle{
+    display: block;
+}
+.gallerytitle h2{
+    text-align: center;
+    font-size: 60px;
+    font-weight: inherit;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ec4436;
+    width: 440px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    padding: 0px;
+}
+
+.gallery{
+    width: 33.33%;
+    float: left;
+    padding: 8px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+.gallery img{
+    max-width: 100%;
+    display: block;
+}
+
+/* footersection */
+
+.footersection{
+    background: #171717;
+}
+.footersection img{
+    width: 14%;
+    float: left;
+    padding: 20px 0px;
+}
+.footersection h5{
+    float: right;
+    color: #fff;
+    margin: 0;
+    margin-top: 30px;
+    font-weight: 100;
+}
